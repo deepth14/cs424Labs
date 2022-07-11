@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+    xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5" layout:decorate="~{layouts/master-layout}">
+
+<head>
+    <title>eRegistrar - a demo spring boot webapp</title>
+</head>
+
+<body>
+
+    <div class="container" layout:fragment="content">
+        <h2>Welcome to the eRegistrar system </h2>
+        <hr />
+        <div class="row">
+            <div class="col-md-6 how-img">
+                <img th:src="@{/images/student-registration.jpeg}" height="300" class="rounded img-fluid" alt="" />
+            </div>
+            <div class="col-md-6">
+                <h4>Student Management System</h4>
+                <h4 class="subheading">A Student Management System is also known as a Student Information System (SIS).
+                </h4>
+                <p class="text-muted">To
+                    browse and manage the <a href="/eregistrar/student/list">Students</a>, please first make sure to
+                    read the
+                    instructions and key points provided below. And then click the appropriate menu item, located on the
+                    menu-bar above.
+
+                    Lorem Ipsum is simply dummy text of the
+                    printing and
+                    typesetting industry. Lorem Ipsum has
+                    been
+                    the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                    type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the <span
+                        class="text-success">
+                        1960s with the release of
+                        Letraset sheets containing</span> Lorem Ipsum passages, and more recently with desktop
+                    publishing
+                    software
+                    like
+                    Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
